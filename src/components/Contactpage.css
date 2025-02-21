@@ -1,0 +1,44 @@
+.mo_contactpage{
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding: 90px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.mo_contactpage::after{
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 130, 237, 0.85);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.mo_contactpage .mo_heading_wrap h2, .mo_contactpage .mo_heading_wrap p{
+    color: #fff;
+}
+
+.mo_contactpage_content_map iframe{
+    width: 100%;
+    height: 450px;
+    border: 5px solid #fff;
+}
+
+.mo_contactpage_content_description ul li{
+    padding: 10px 0;
+}
+
+.mo_contactpage_content_description ul li p{
+    color: #fff;
+    margin-bottom: 0;
+    text-transform: capitalize;
+}
+
+.mo_contactpage_content_description ul li p a{
+    color: #fff;
+    text-transform: lowercase;
+}

@@ -1,0 +1,14 @@
+
+
+.mo_form{
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;   
+    padding: 90px 0;
+}
+
+.mo_form .mo_heading_right_wrap h2, .mo_form .mo_heading_right_wrap p{
+    color: #fff;
+}
+

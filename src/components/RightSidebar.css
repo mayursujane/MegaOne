@@ -1,0 +1,50 @@
+
+.mo_offcanvas{
+    background-color: #00C4ED;
+    color: #fff;
+    /* width: 26% !important; */
+}
+
+.mo_offcanvas a{
+    color: #fff;
+}
+
+.mo_offcanvas .offcanvas-body{
+    padding-left: 80px;
+}
+
+
+
+.mo_rightSidebar_navbar li{
+    padding-top: 20px;
+}
+
+.mo_rightSidebar_navbar li:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 5px; 
+}
+
+.mo_rightSidebar_sociallink{
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+
+.mo_rightSidebar_sociallink ul{
+    
+    display: flex;
+    column-gap: 25px;
+}
+
+.mo_rightSidebar_sociallink li{
+    cursor: pointer;
+}
+
+.mo_rightSidebar_copyright{
+    font-size: small;
+    line-height: 25px;
+}
+
+.mo_rightSidebar_copyright a{
+    margin: 0;
+}

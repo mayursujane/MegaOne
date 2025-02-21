@@ -1,0 +1,24 @@
+.mo_progressbar{
+    padding-bottom: 90px;
+}
+.mo_progressbar_content{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+.progress{
+    width: 100%;   
+}   
+
+.mo_progressbar_content_percent{
+    margin-bottom: 10px;
+}
+
+.mo_progressbar_content_percent span {
+    color: #00C4ED;
+}
+
+
+
+

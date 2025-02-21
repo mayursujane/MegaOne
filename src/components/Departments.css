@@ -1,0 +1,27 @@
+.mo_departments{
+    padding: 90px 0;
+}
+
+.mo_departments_list{
+    display: flex;
+
+}
+
+.mo_departments_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: #00C4ED;
+}
+
+.mo_departments_img svg{
+    fill: #fff;
+}
+
+.mo_departments_description{
+    flex: 1;
+    padding-left: 15px;
+}

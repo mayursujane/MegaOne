@@ -1,0 +1,48 @@
+.mo_statistics{
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;   
+    padding: 90px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.mo_statistics::after{
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 130, 237, 0.85);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.mo_statistics_counter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mo_statistics_counter h2, .mo_statistics_counter span{
+    color: #fff;
+}
+
+.mo_statistics_counter h2{
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.mo_statistics_counter h2::after{
+    content: " ";
+    position: absolute;
+    background-color: #00C4ED;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    width: 40px;
+    margin: 0 auto;
+}

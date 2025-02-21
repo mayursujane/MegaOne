@@ -1,0 +1,39 @@
+.mo_footer{
+    padding: 22px 0;
+}
+
+
+
+.mo_footer_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mo_footer_icon ul{
+    display: flex;
+    column-gap: 2px;
+}
+.mo_footer_icon ul li a{
+    height: 48px;
+    width: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.mo_footer_icon ul li a:hover{
+    background-color: #00C4ED;
+    border-radius: 50%;
+}
+
+.mo_footer_icon ul li a:hover svg{
+    fill: #fff;
+}
+
+.mo_footer_description{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,24 @@
+.mo_patientgallery{
+    padding: 90px 0;
+}
+
+.mo_heading_center_wrap p{
+    padding: 0 100px;
+}
+
+.mo_patientgallery_img{
+    padding-top: 20px;
+}
+
+.mo_patientgallery_btn ul, .mo_patientgallery_img ul{
+    justify-content: center;
+    display: flex;
+}
+
+.mo_patientgallery_btn ul{
+    column-gap: 10px;
+}
+
+.mo_patientgallery_img ul{
+    column-gap: 5px;
+}

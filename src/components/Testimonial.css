@@ -1,0 +1,8 @@
+.mo_testimonial{
+    padding: 90px 0;
+    background-color: #00C4ED;
+}
+
+.mo_testimonial .mo_heading_center_wrap h2, .mo_testimonial .mo_heading_center_wrap p{
+    color: #fff;
+}

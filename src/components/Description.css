@@ -1,0 +1,11 @@
+.mo_description{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 90px 0;
+}
+
+.mo_heading_wrap h5{
+    color: #00C4ED;
+  }
+
